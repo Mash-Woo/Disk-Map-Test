@@ -90,7 +90,7 @@ func getResultOfDiskMap(input: String) -> Int {
     // 1. Thực hiện chuyển đổi show ra bản đồ đĩa
     resultDiskMap = convertToDiskMap(from: input)
 
-    // 2. Thực hiện compactDiskStepByStepOptimized
+    // 2. Thực hiện thay đổi vị trí bản đồ đĩa
     resultDiskMap = changePositionInDiskMap(resultDiskMap)
     
     // 3. Lọc bỏ dấu chấm (".")
